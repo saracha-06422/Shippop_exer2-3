@@ -1,0 +1,90 @@
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 90px;
+    font-family: 'Kanit', sans-serif;
+  }
+
+.books {
+    display: flex;
+    margin-top: 10%;
+}
+
+.boo img{
+    padding-top: 2.5%;
+    padding-right: 2.5%;
+    max-width: 400px;
+    max-height: 800px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.text {
+    margin-left: 5%;
+}
+
+.text h1 {
+    font-weight: 500;
+}
+
+#dropdown-basic {
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.price {
+    padding-top: 20px;
+}
+
+.price ul li{
+    display: inline; 
+    font-size: 25px;
+    padding: 10px;
+}
+
+#b {
+    font-size: 30px;
+}
+
+#c {
+    font-size: 25px;
+    color:gray;
+}
+
+
+
+.button-add {
+    margin-top: 40px;
+}
+
+.button-add ul li {
+    size: 30px;
+    display: inline; 
+    padding: 10px;
+    margin: 5px;
+}
+
+.button-add ul li Button {
+    border-radius: 20px;
+    width: 150px;
+}
+
+.social-icon {
+    margin-top: 40px;
+}
+
+.social-icon ul li {
+    size: 30px;
+    display: inline; 
+    padding: 10px;
+    margin: 5px;
+}
+
+.backbook {
+    margin-top: 2%;
+}
+
+.backbook img {
+    max-width: 150px;
+    max-height: 200px;
+    margin-right: 2%;
+}

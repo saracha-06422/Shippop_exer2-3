@@ -1,0 +1,2 @@
+ข้อที่ 2 อยู่ในไฟล์ PDF ชื่อ shippop_exer2
+ข้อที่ 3 ทำในส่วนของ front end ให้ coln มาแล้ว npm start ได้เลย (อย่าลืม npm init ก่อน)

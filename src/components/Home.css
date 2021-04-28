@@ -1,0 +1,89 @@
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 90px;
+    font-family: 'Kanit', sans-serif;
+  }
+
+.about-bg {
+    height: 400px;
+    background-attachment: fixed; 
+    background: url('../img/cover.JPG') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+
+.row {
+    margin-top: 30px;
+    margin-left: 0.5%;
+    display: flex;
+    justify-content: center;
+}
+.work {
+    margin-bottom: 20px;
+    display: block;
+    transition: .3s;
+    border-radius: 10px;
+    width: 240px;
+    height: 350px;
+}
+
+.work:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.work p {
+    font-size: 12.5px;
+    color: green;
+    margin-left: 20px;
+}
+
+.work h5 {
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.reviews {
+    color: gray;
+}
+
+.work h4 {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.work h4 del {
+    font-size: 15px;
+    color: gray;
+}
+
+.work img {
+    display: block;
+    max-width: 90px;
+    max-height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.work img:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.cart {
+    margin-left: 22.5%;
+    margin-right: 10%;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+
